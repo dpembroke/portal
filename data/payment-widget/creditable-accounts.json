@@ -1,12 +1,12 @@
 ﻿{
 	"list": [
-		{
-			"iban": "IE60AIBK93524793950043",
-			"name": "My Current Account"
-		},
-		{
-			"iban": "IE60AIBK93524793957495",
-			"name": "My creditable Account"
-		}
+			{
+				"iban": "IE60NBBK12345612345678",
+				"name": "My Current Account"
+			},
+			{
+				"iban": "IE60NBBK12345687654123",
+				"name": "My creditable Account"
+			}
 	]
 }
