@@ -1,0 +1,63 @@
+﻿@media (min-width: 768px) {
+	nav.portal-menu {
+		margin-top: 20px;
+	}
+}
+
+/*
+
+ul.portal-menu
+{
+	list-style-type: none;	
+	padding-left: 0;
+	line-height: 36px;
+}
+
+ul.portal-menu li 
+{	
+	float: left;
+
+	border: solid 1px #8EADC2;
+	border-radius: 5px 5px 0 0;
+
+	margin-right: 2px;
+	padding: 0;
+
+	border-bottom: solid 1px #C9D7E0;
+}
+ul.portal-menu li a
+{
+	padding: 10px 20px;
+	text-decoration: none;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #C9D7E0;
+	border-radius: 5px 5px 0 0;
+
+	cursor: pointer;
+
+	background: linear-gradient(to bottom, #DEE7EE, #C9D7E0);
+
+	font-weight: bold;
+	font-size: 12px;
+	color: #666;
+}
+
+
+ul.portal-menu a:hover
+{
+	color: #6bf;
+}
+
+ul.portal-menu li.selected {
+	position: relative;
+	top: 1px;
+	border-bottom: solid 1px #EFF5F5;
+}
+
+ul.portal-menu li.selected a
+{
+	background-color: #EFF5F5;
+	border-bottom: solid 1px #EFF5F5;
+	background: linear-gradient(to bottom, #EFF5F5, #EFF5F5);
+}
+*/

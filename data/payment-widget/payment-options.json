@@ -1,0 +1,18 @@
+﻿{
+	"list": [
+			{
+				"product": "SEPA",
+				"cost": 0.0,
+				"finalAuthorizationCutOff": "14:00",
+				"executionTimeframe": 1,
+				"description": "Route this payment through the SEPA scheme. This option is free. The payment will complete today if authorized by 14:00."
+			},
+			{
+				"product": "SWIFT",
+				"cost": 12.70,
+				"finalAuthorizationCutOff": "12:00",
+				"executionTimeframe": 1,
+				"description": "Route this payment through the SWIFT scheme. This option will cost €12.70. The payment will complete today if authorized by 12:00. SWIFT payments can complete faster than SEPA but this is not guaranteed!"
+			}
+	]
+}

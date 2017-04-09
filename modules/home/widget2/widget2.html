@@ -1,0 +1,9 @@
+﻿<div class="portal-widget-content" ng-controller="widget2Controller">
+    <p>
+        Demonstrates how the <b>menuService</b> can be used by a module to get a list of Menu items and invoke a click on a menu item through the API.
+    </p>
+    <select ng-model="selectedMenuId">
+        <option ng-repeat="i in items" value="{{i.id}}" >{{i.text}}</option>
+    </select>
+    <input type="button" value="click" ng-click="click()" />
+</div>

@@ -1,0 +1,31 @@
+﻿<div id="portal-dashboard" class="portal-dashboard" ng-controller="dashboardController">
+	<div class="row ar">
+		<input type="button" value="choose a layout" ng-click="chooseLayout()" />
+	</div>
+
+	<div class="">
+		<div ng-repeat="r in layout.rows" class="row">
+			<ul ng-repeat="c in r.columns" 
+				class="dashboard-column" 
+				ng-class="c.class" 				
+				dnd-list="c.widgets"								 
+				>
+				<li ng-repeat="w in c.widgets"
+						class="" 
+						id="portal-widget-{{w.id}}"
+						dnd-draggable="w"
+						dnd-effect-allowed="move"
+						dnd-moved="c.widgets.splice($index, 1)"
+												
+						item="w"						
+						>
+					<div class="panel panel-primary">
+
+						<div class="panel-heading" id="portal-widget-heading-{{w.id}}">{{w.options.title}}</div>
+						<div class="panel-body" portal-load-module="w.module" load-complete="widgetLoadComplete(w.id, module)"></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

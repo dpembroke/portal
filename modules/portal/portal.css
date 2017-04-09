@@ -1,0 +1,38 @@
+﻿body
+{
+	/*
+	font-family: Tahoma, Arial, Verdana;
+	color: #0A3D54;
+	font-size: 12px;
+	padding: 0;
+	margin: 0 auto;
+	width: 1024px;*/	
+	background-color: #C5E0E9;
+}
+
+
+#portal-page {
+	clear: both;
+	background-color: #DFECF4; 
+}
+
+
+#portal-option-bar {
+	background-color: #EFF5F5;
+	height: 30px;
+	clear: both;
+	border-top: solid 1px #8EADC2;
+	border-bottom: solid 1px #8EADC2;
+}
+
+
+.al {
+	text-align: left;
+}
+.ar {
+	text-align: right;
+}
+
+a{
+	cursor: pointer;
+}

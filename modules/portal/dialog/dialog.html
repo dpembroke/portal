@@ -1,0 +1,17 @@
+﻿<div ng-controller="dialogController" ng-show="display">
+    
+    
+    <div class="portal-overlay">
+        
+    </div>
+
+    <div id="portal-dialog" class="portal-dialog" ng-style="{width: width, height: height, top: top, left: left}">
+        <a href="" title="Close" class="portal-dialog-close" ng-click="hide()">X</a>
+        <div class="portal-dialog-title" ng-show="title">
+            {{title}}
+        </div>
+        <div id="portal-dialog-body" class="portal-dialog-body">
+            
+        </div>
+    </div>
+</div>

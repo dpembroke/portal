@@ -1,0 +1,22 @@
+{
+  "name": "portal",
+  "authors": [
+    "Dimitri Pembroke"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.5",
+    "bootstrap": "3.3.6",
+    "angular-resource": "^1.6.3",
+    "requirejs": "^2.3.3",
+    "jquery": "2.2.4",
+    "text": "requirejs/text#^2.0.15",
+    "require-css": "^0.1.10",
+    "angular-drag-and-drop-lists": "^2.1.0",
+    "angular-bootstrap-material": "abm#^0.1.4"
+  }
+}

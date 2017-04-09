@@ -1,0 +1,25 @@
+﻿
+.portal-layouts {
+	padding-bottom: 20px;
+}
+
+.portal-layouts .container {
+	width: 400px;	
+}
+
+.portal-layouts .selected, .portal-layout-option:hover {
+	box-shadow: 0px 0px 10px 0px #aaa;
+}
+
+.portal-layouts .container .row>[col^=true] {
+	background-color: rgba(86,61,124,.15);
+	border: 1px solid rgba(86,61,124,.2);
+	line-height: 30px;
+}
+
+.portal-layout-option {
+	margin-top: 20px;
+	cursor: pointer;
+	padding-bottom: 0;
+}
+

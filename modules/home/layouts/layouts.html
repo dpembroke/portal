@@ -1,0 +1,12 @@
+﻿
+<div ng-controller="layoutsController" class="portal-layouts">
+
+    <div ng-repeat="l in layouts" class="container portal-layout-option" ng-click="selectLayout(l)" ng-class="{selected: l.id == selected.id}">
+        <div ng-repeat="r in l.rows" class="row">
+            <div ng-repeat="c in r.columns" ng-class="c.class" col="true">
+                {{c.description}}
+            </div>
+        </div>
+    </div>
+
+</div>

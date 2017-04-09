@@ -1,0 +1,21 @@
+﻿[
+	{ "id" : 1, "text": "Home", "module": "home/dashboard" },
+	{
+			"id": 2,
+			"text": "Module 1",
+			"module": "module1/module1",
+			"children": [
+				{
+					"id": 201,
+					"text": "sub 1",
+					"module": "module1/module1/sub1"
+				},
+				{
+					"id": 202,
+					"text": "sub 2",
+					"module": "module1/module1/sub2"
+				}
+			]
+	},
+	{ "id" : 3, "text": "Module 2", "module": "module2/module2" }
+]
