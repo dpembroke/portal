@@ -10,16 +10,18 @@
 				});
 			});
 
-			$scope.validateStep1 = function () {
-				//if (!paymentStep1.$valid)
-				//	return;
+			$scope.validateStep1 = function (valid) {
+				if (!valid)
+					return;
 				paymentWidgetService.getPaymentOptions($scope.payment, function (data) {
 					$scope.options = data.list;
 					$scope.step = 2;
 				});
 			}
 
-			$scope.validateStep2 = function () {
+			$scope.validateStep2 = function (valid) {
+				if (!valid)
+					return;
 				$scope.step = 3;
 			}
 
